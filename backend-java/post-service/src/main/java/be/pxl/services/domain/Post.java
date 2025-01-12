@@ -17,12 +17,11 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private Long authorId;
+    private String author;
     private String title;
     private String content;
-    private String imageUrl;
     private String date;
-    private boolean isDraft;
-    private boolean isPublished;
+    private Boolean isDraft;
+    private Boolean isPublished;
 
 }
